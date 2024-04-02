@@ -36,7 +36,6 @@ struct ContentView: View {
                                         .renderingMode(.template)
                                         .foregroundColor(.black)
                                         .opacity(selectedVideoIndex == 0 ? 0.5 : 1.0)
-                                    
                                 }
                                 .overlay(Circle()
                                     .stroke(Color.black,lineWidth: 2))
@@ -87,12 +86,11 @@ struct ContentView: View {
                     VStack(alignment: .leading) {
                         Text(.init(videomodel[selectedVideoIndex].title))
                             .font(.title2)
-                 
-
+                        
                         Text(.init(videomodel[selectedVideoIndex].author.name))
                             .font(.subheadline)
                             .padding(.bottom)
-
+                        
                         Text(.init(videomodel[selectedVideoIndex].description))
                             .font(.title2)
                     }
@@ -137,7 +135,6 @@ struct ContentView: View {
             player?.pause()
             isPlaying.toggle()
         }
-        // Handle next button
         if selectedVideoIndex < videomodel.count - 1 {
             selectedVideoIndex += 1
         }

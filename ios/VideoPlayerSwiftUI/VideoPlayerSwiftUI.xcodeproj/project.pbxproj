@@ -14,7 +14,6 @@
 		3AF67A6E25A64DBF00D360A7 /* VideoPlayerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF67A6D25A64DBF00D360A7 /* VideoPlayerSwiftUITests.swift */; };
 		3AF67A7925A64DBF00D360A7 /* VideoPlayerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF67A7825A64DBF00D360A7 /* VideoPlayerSwiftUIUITests.swift */; };
 		A1479A562BBB1BEA000E0EE0 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1479A552BBB1BEA000E0EE0 /* VideoModel.swift */; };
-		A1479A592BBB4769000E0EE0 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1479A582BBB4769000E0EE0 /* VideoPlayerView.swift */; };
 		A1479A5C2BBB51AC000E0EE0 /* MarkdownKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1479A5B2BBB51AC000E0EE0 /* MarkdownKit */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		3AF67A7825A64DBF00D360A7 /* VideoPlayerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		3AF67A7A25A64DBF00D360A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1479A552BBB1BEA000E0EE0 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
-		A1479A582BBB4769000E0EE0 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 		3AF67A5A25A64DBD00D360A7 /* VideoPlayerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A1479A572BBB475A000E0EE0 /* View */,
 				A1479A542BBB1BBB000E0EE0 /* Model */,
 				3AF67A5B25A64DBD00D360A7 /* VideoPlayerSwiftUIApp.swift */,
 				3AF67A5D25A64DBD00D360A7 /* ContentView.swift */,
@@ -144,14 +141,6 @@
 				A1479A552BBB1BEA000E0EE0 /* VideoModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A1479A572BBB475A000E0EE0 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				A1479A582BBB4769000E0EE0 /* VideoPlayerView.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,7 +282,6 @@
 				3AF67A5E25A64DBD00D360A7 /* ContentView.swift in Sources */,
 				A1479A562BBB1BEA000E0EE0 /* VideoModel.swift in Sources */,
 				3AF67A5C25A64DBD00D360A7 /* VideoPlayerSwiftUIApp.swift in Sources */,
-				A1479A592BBB4769000E0EE0 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
